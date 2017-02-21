@@ -24,9 +24,9 @@ data = pd.read_excel(filename, header = None, squeeze = 1)
 
 print(data.isnull().values.any())
 
-n_features = 100     #max 646
+n_features = 20     #max 646
 n_samples = data.size
-n_components = 50     #recommended for LSA
+n_components = 4     #for dimensionality reduction
 k_means_clusters = 5   #default, can change
 
 # Perform an IDF normalization on the output of HashingVectorizer
@@ -155,12 +155,11 @@ class TopToolbar(mpld3.plugins.PluginBase):
 cluster_colors = {0: '#1b9e77', 1: '#d95f02', 2: '#7570b3', 3: '#e7298a', 4: '#66a61e'}
 
 #set up cluster names using a dict
-cluster_names = {0: 'Family, home, war', 
-                 1: 'Police, killed, murders', 
-                 2: 'Father, New York, brothers', 
-                 3: 'Dance, singing, love', 
-                 4: 'Killed, soldiers, captain'}
-
+cluster_names = {0: '0', 
+                 1: '1', 
+                 2: '2', 
+                 3: '3', 
+                 4: '4'}
 
 
 #create data frame that has the result of the MDS plus the cluster numbers and titles
@@ -214,7 +213,6 @@ for name, group in groups:
 ax.legend(numpoints=1) #show legend with only one dot
 
 mpld3.show() #show the plot
-mpld3.enable_notebook()
 
 #html = mpld3.fig_to_html(fig)
 #print(html)
