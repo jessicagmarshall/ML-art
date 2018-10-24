@@ -1,6 +1,5 @@
 # Machine Learning & Art
-applications of machine learning algorithms to explore expression of the Cooper Union experience
-
+applications of machine learning algorithms to explore expression
 
 ### Mapping Values to Projections in the Spatial Domain via the Application of Latent Dirichlet Allocation to Text Data from the Time Domain
 
