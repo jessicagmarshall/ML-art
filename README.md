@@ -9,6 +9,6 @@ LDA is a machine learning algorithm used to discover the underlying topics in te
 Once the text is processed through LDA, the algorithm generates a set of inferences. These outputs are manifested through four main elements: an electric bulb or other light source, a reflector and "condensing" lens to direct the light to the surface, a holder, and a focusing lens. When projected onto the wall or desired surface, the perimeter of each image is traced with a thin line of latex paint.
 
 
-#### Collaborators
+#### Collaborators:
 
 Jessica Marshall, Emily Adamo, Sam Keene
